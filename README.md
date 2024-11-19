@@ -25,6 +25,8 @@ To get a local copy up and running follow these simple example steps.
 
 - Have java JDK installed on your system
 - Clone the repo
--  ```git clone https://github.com/danielcoblentz/Maze-Runner```
+```
+- git clone https://github.com/danielcoblentz/Maze-Runner
+```
 
 - The program includes three solution methods: Backtracking, DFS (Depth-First Search), and BFS (Breadth-First Search). By default, the program runs the backtracking solution. To test the other methods, simply comment out or remove the backtracking solution in the code, uncomment the desired method, and run the program.
