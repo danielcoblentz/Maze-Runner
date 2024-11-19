@@ -1,12 +1,30 @@
 # Maze-Runner
-Robot Maze Solver
-This project simulates a robot navigating through a grid-based maze using Java's Swing and Graphics2D libraries. The Robot class provides functionality for the robot to explore the maze, detect doors, and move through them.
 
-Features
-Grid-Based Maze: The maze is represented as a grid of rooms, where each room can have up to four doors (north, south, east, west).
+Description: This project simulates a robot navigating through a grid-based maze using Java's Swing and Graphics2D libraries. The Robot class provides functionality for the robot to explore the maze, detect doors, and move through them.
 
-Robot Navigation: The robot can move through the maze, checking for doors in each direction and navigating accordingly.
+## 🔗 Features
+- **Robot Movement**: The robot physically navigates the maze, visualizing the process.
+- **Maze Representation**:
+    - `x` denotes traversable rooms.
+    - Empty spaces (` `) are walls.
+- **Pathfinding Algorithms**:
+    - **BFS**: Guarantees the shortest path.
+    - **DFS**: Explores deeply before backtracking, finding any valid path.
+- **Final Maze Output**: Marks the solved path with `'*'` in the command line interface.
 
-Visual Representation: The maze and the robot's position are visualized using Java's Swing framework.
 
-Backtracking Algorithm: A simple backtracking algorithm is used to navigate the maze and find a path to the destination.
+## 🔗 Technologies:
+- **Java**: Primary programming language.
+- **Object-Oriented Design**: Uses a `Robot` class to abstract navigation.
+
+## Getting started:
+
+To get a local copy up and running follow these simple example steps.
+
+**Prerequisites**
+
+- Have java JDK installed on your system
+- Clone the repo
+-  ```git clone https://github.com/danielcoblentz/Maze-Runner```
+
+- The program includes three solution methods: Backtracking, DFS (Depth-First Search), and BFS (Breadth-First Search). By default, the program runs the backtracking solution. To test the other methods, simply comment out or remove the backtracking solution in the code, uncomment the desired method, and run the program.
