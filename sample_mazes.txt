@@ -1,0 +1,57 @@
+This file contains a collection of sample mazes of varying difficulty and complexity for testing the Maze Solver program.
+ 
+ Note:
+ * Each maze is represented as a multi-line string where:
+ *   - 'x' represents traversable rooms.
+ *   - ' ' (space) represents walls that cannot be traversed.
+ * 
+ * Robot Navigation:
+ * - The robot always starts at the top-left corner (0, 0).
+ * - The goal is to navigate to the bottom-right corner (rows - 1, cols - 1).
+ * 
+-------------------------------------------------------------------------------------
+1) Straight path
+
+"xxxxx\n" +
+"    x\n" +
+"xxxxx\n" +
+"x    \n" +
+"xxxxx\n";
+
+
+2) Simple maze (5x5 maze)
+
+"xxxxx\n" +
+"x   x\n" +
+"xx xx\n" +
+"x   x\n" +
+"xxxxx\n";
+
+
+4) Compelx maze (10x10 maze)
+
+"xxxxxxxxxx\n" +
+"x        x\n" +
+"x xxxx x x\n" +
+"x x  x x x\n" +
+"x x xx x x\n" +
+"x    x x x\n" +
+"xxxxxx x x\n" +
+"x      x x\n" +
+"x xxxxxxxx\n" +
+"xxxxxxxxxx\n";
+
+
+
+
+5) Final maze (currently in program)
+"xx xx  xxx\n"
+"xx x      \n"
+"x   xxx x \n"
+"xx xx x xx\n"
+" xxxx x x \n"
+" x   xxx x\n"
+ "xxxxx x xx\n"
+"xxxxxxxxxx\n"
+"xx    x   \n"
+"x xxxxxxxx\n"
